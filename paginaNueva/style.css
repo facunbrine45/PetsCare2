@@ -1,0 +1,165 @@
+html{
+    height: 100%;
+    font-family: "Roboto";
+}
+.shantell-sans {
+    font-family: "Shantell Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "BNCE" 0,
+      "INFM" 0,
+      "SPAC" 0;
+  }
+  
+body{
+    margin: 0%;
+}
+header{
+max-height: 70px;
+max-width: 100%;
+background-color: rgb(44, 221, 162);
+display: flex;
+flex-direction: row;
+align-items:center;
+justify-content: space-between;
+
+}
+
+header button{
+width: 100px;
+height: 50px;
+border-radius: 40%;
+
+}
+header h1{
+    font-size: 32px;
+    margin-left: 32px;
+}
+
+nav li{
+display: inline-block;
+list-style: none;
+padding: 20px;
+font-size: 20px;
+font-family: 'Shantell Sans';
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header nav li:hover{
+    transform: scale(1.1);
+
+}
+nav li a:hover{
+    color: blueviolet;
+   
+}
+
+header button{
+    border: none;
+    width: 130px;
+    margin: 16px;
+    background-color: rgb(79, 223, 163);
+    font-family: 'Shantell Sans', cursive;
+    font-size: 18px;
+}
+
+header button a{
+    text-decoration: none;
+    color: beige;
+}
+
+header button a:hover{
+color: blueviolet;
+}
+
+.hero{
+display:flex;
+flex-direction: row;
+background-color: rgb(44, 221, 162);
+justify-content: space-between;
+align-items: center;
+}
+.hero h1{
+font-size: 4.0rem;
+margin: 32px;
+font-family: 'Shantell Sans';
+}
+.hero p{
+margin: 32px;
+font-size: 1.5rem;
+color: rgb(255, 255, 255);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero div{
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.hero button{
+margin: 32px;
+max-width: 150px;
+height: 50px;
+border-radius: 20px;
+background-color: rgb(255, 255, 255);
+font-family:'Shantell Sans';
+font-size: 16px;
+border: none;
+}
+
+.hero img{
+    margin: 40px;
+    align-items:center;
+    width: 500px;
+    max-height: 900px;
+}
+
+.container1{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    gap:50px;
+    margin: auto;
+}
+
+.container1 div{
+    background-color: antiquewhite;
+    width: 400px;
+    height: 400px;
+    margin: 16px;
+    text-align: center;
+    border-radius: 10%;
+}
+ 
+.container1 div img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 8px;
+    background: #641b542a;
+
+}
+.container1 div button{
+margin: 32px;
+max-width: 150px;
+height: 50px;
+border-radius: 20px;
+background-color: rgb(173, 56, 56);
+font-family:'Shantell Sans';
+font-size: 16px;
+border: none;
+}
+
+footer{
+background-color: beige;
+width: 100%;
+height: 200px;
+
+}
